@@ -1,13 +1,13 @@
-# DockProof AI — Smart Receiving Verification Platform
+# ReceiveX — Smart Receiving Verification Platform
 
-**Live Deployment:** [https://dockproof-ai.vercel.app](https://dockproof-ai.vercel.app)
+**Live Deployment:** [https://receive-x.vercel.app/](https://receive-x.vercel.app/)
 
 
 ## 1. Problem Understanding
 Warehouse receiving docks face a high volume of inbound shipments that require meticulous inspection. Manual inspection is slow, prone to human error, and lacks verifiable evidence. Operators often fail to capture proper photographic evidence, misread barcodes, or accept damaged/incorrect variants due to fatigue or time constraints. When discrepancies arise later, there is rarely an immutable, visual audit trail linking the physical condition of the goods at the dock to the purchase order.
 
 ## 2. Solution Overview
-DockProof AI is a mobile-first, real-time logistics application designed to run on rugged warehouse scanners, tablets, and desktop workstations. It enforces a verifiable receiving process by:
+ReceiveX is a mobile-first, real-time logistics application designed to run on rugged warehouse scanners, tablets, and desktop workstations. It enforces a verifiable receiving process by:
 - Using device cameras and ZXing to decode barcodes and verify GTINs against the product catalogue.
 - Guiding operators to capture specific photographic evidence (labels, carton sides, overview).
 - Applying client-side quality gates to ensure photos aren't blurry, dark, or obscured by glare.
