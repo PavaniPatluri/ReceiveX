@@ -145,14 +145,6 @@ export function LoginPage({ onLogin }: LoginPageProps) {
           </div>
         </div>
         <div className="flex items-center gap-3">
-          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded border text-xs" style={{ background: 'var(--surface-container)', borderColor: 'var(--outline-var)' + '66', color: 'var(--on-surface-var)' }}>
-            <span className="material-symbols-outlined text-[16px] text-[var(--tertiary)]" style={{ fontVariationSettings: "'FILL' 1" }}>wifi</span>
-            <span style={{ fontFamily: "'JetBrains Mono', monospace", fontWeight: 600 }}>DC-WIFI-5G</span>
-          </div>
-          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded border text-xs" style={{ background: 'var(--surface-container)', borderColor: 'var(--outline-var)' + '66', color: 'var(--on-surface-var)' }}>
-            <span className="material-symbols-outlined text-[16px] text-[var(--tertiary)]" style={{ fontVariationSettings: "'FILL' 1" }}>battery_charging_90</span>
-            <span style={{ fontFamily: "'JetBrains Mono', monospace", fontWeight: 600 }}>94%</span>
-          </div>
         </div>
       </header>
 
@@ -412,23 +404,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
               </div>
             </div>
 
-            {/* Device status footer */}
-            <div className="px-6 py-4 border-t flex items-center justify-between" style={{ background: 'var(--surface-low)', borderColor: 'var(--surface-container)' }}>
-              <div className="flex items-center gap-2.5">
-                <span className="w-2.5 h-2.5 rounded-full bg-[var(--tertiary)]" />
-                <div className="flex flex-col">
-                  <span className="text-[var(--on-surface)] text-xs font-semibold flex items-center gap-1.5">
-                    Zebra TC58 Paired
-                    <span className="material-symbols-outlined text-[14px] text-[var(--primary-action)]" style={{ fontVariationSettings: "'FILL' 1" }}>bluetooth_connected</span>
-                  </span>
-                  <span className="text-[var(--on-surface-var)] text-[11px]" style={{ fontFamily: "'JetBrains Mono', monospace" }}>Integrated SE55 Advanced Range Imager</span>
-                </div>
-              </div>
-              <div className="flex items-center gap-1 text-xs font-semibold text-[var(--tertiary)] px-2 py-0.5 rounded border" style={{ background: 'var(--on-tertiary-container)4d', borderColor: 'var(--tertiary)', fontFamily: "'JetBrains Mono', monospace" }}>
-                <span className="material-symbols-outlined text-[15px]">battery_charging_90</span>
-                <span>94%</span>
-              </div>
-            </div>
+            {/* Device status footer removed */}
           </div>
         )}
 
